@@ -1,0 +1,41 @@
+body {
+	padding: 0px;
+	margin: 0px;
+
+}
+
+header {
+	width: 100%;
+	max-width: 1700px;
+	min-width: 600px;
+	background-color: olive;
+	margin: 0 auto;
+}
+
+nav {
+	width: 20%;
+	background-color: green;
+	float: left;
+	max-width: 300px;
+	height: 100%;
+}
+
+ul > li > ul > li {
+	cursor: pointer;
+}
+
+#all {
+	width: 100%;
+	max-width: 1700px;
+	margin: 0 auto;
+	min-width: 600px;
+	height: 100%;
+}
+
+#content {
+	padding-left: 320px;
+	padding-top: 30px;
+	background-color: lightgreen;
+}
+
+
