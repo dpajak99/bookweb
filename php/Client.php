@@ -33,7 +33,7 @@ class Client {
    if ($this->db->connect()) {
     if ($results = $this->db->select($sql)) {
 		$i = 0;
-      while ($row = mysql_fetch_assoc($results)) {
+      while ($row = mysqli_fetch_assoc($results)) {
         
          foreach ($row as $key => $val) {
            $mx[$i] = $val;

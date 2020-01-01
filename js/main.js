@@ -74,7 +74,7 @@ $("#ocena").hover(function() {
 	});
 	
 	$(this).click(function() {
-		window.location.href='http://localhost/ksiegarnia_internetowa/php/send_rate.php?page=book&bookid='+$("#id_ksiazki").val()+'&rate='+ocena;
+		window.location.href='http://localhost/Bookweb.pl/php/send_rate.php?page=book&bookid='+$("#id_ksiazki").val()+'&rate='+ocena;
 	});
 });
 
